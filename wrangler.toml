@@ -1,4 +1,4 @@
-name = "render"
+name = "files"
 main = "src/index.ts"
 compatibility_date = "2022-05-15"
 # Set this to false if you don't want to use the default *.workers.dev route.
@@ -20,9 +20,9 @@ PATH_PREFIX = ""
 
 # Index file to search for on directory requests, set to "" to disable indexes
 #INDEX_FILE = ""
-INDEX_FILE = "index.html"
+INDEX_FILE = ""
 
 [[r2_buckets]]
 binding = "R2_BUCKET"
-bucket_name = "kot"         # Set this to your R2 bucket name. Required
-preview_bucket_name = "kot" # Set this to your preview R2 bucket name. Can be equal to bucket_name. Optional
+bucket_name = "ductf22"         # Set this to your R2 bucket name. Required
+preview_bucket_name = "ductf22" # Set this to your preview R2 bucket name. Can be equal to bucket_name. Optional

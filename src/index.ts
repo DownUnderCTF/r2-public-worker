@@ -38,7 +38,7 @@ export default {
 
     const url = new URL(request.url);
     if (!env.INDEX_FILE && url.pathname === "/") {
-      return new Response("OK");
+      new Response("File Not Found", { status: 404 });
     }
 
     let response: Response | undefined;
